@@ -26,7 +26,7 @@ public class Aula35 {
 			}
 		}
 		//System.out.println("Boa noite");
-		
+		sc.close();
 	}
 
 }

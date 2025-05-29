@@ -38,7 +38,7 @@ public class Aula39 {
 		}
 		
 		System.out.println("O dia da semana é " + dia);
-
+sc.close();
 	}
 
 }
