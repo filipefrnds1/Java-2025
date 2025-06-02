@@ -31,18 +31,18 @@ public class Aula111 {
 		LocalDate d11 = LocalDate.of(2022, 7, 20);
 		LocalDateTime d12 = LocalDateTime.of(2022, 7, 20, 1, 30);
 		
-		System.out.println("d01 = " + d01.toString()); // chama o toString de forma explícita
-		System.out.println("d02 = " + d02.toString());
-		System.out.println("d03 = " + d03);
-		System.out.println("d04 = " + d04);
-		System.out.println("d05 = " + d05);
-		System.out.println("d06 = " + d06);
-		System.out.println("d07 = " + d07);
-		System.out.println("d08 = " + d08);
-		System.out.println("d09 = " + d09);
-		System.out.println("d10 = " + d10);
-		System.out.println("d11 = " + d11);
-		System.out.println("d12 = " + d12);
+			System.out.println("d01 = " + d01.toString()); // chama o toString de forma explícita
+			System.out.println("d02 = " + d02.toString());
+			System.out.println("d03 = " + d03);
+			System.out.println("d04 = " + d04);
+			System.out.println("d05 = " + d05);
+			System.out.println("d06 = " + d06);
+			System.out.println("d07 = " + d07);
+			System.out.println("d08 = " + d08);
+			System.out.println("d09 = " + d09);
+			System.out.println("d10 = " + d10);
+			System.out.println("d11 = " + d11);
+			System.out.println("d12 = " + d12);
 		
 		sc.close();
 	}
