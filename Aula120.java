@@ -20,6 +20,14 @@ public class Aula120 {
 		
 		System.out.println(os1);
 		System.out.println(os2);
+		
+		System.out.println(order.getStatus());
+		
+		order.setStatus(os2);
+		
+		System.out.println(order.getStatus());
+		
+		System.out.println(order);
 	}
 
 }
