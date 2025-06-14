@@ -61,5 +61,24 @@ public class Worker2 {
 		contracts.add(contract);
 	}
 	
+	public void aremoveContract(HourContract2 contract) {
+		contracts.remove(contract);
+	}
+	
+	public double income(int year, int month) {
+		double sum = baseSalary;
+		
+		for(HourContract2 list : contracts) {
+			
+			int listYear = list.getDate().getYear();
+			int listMonth = list.getDate().getMonthValue();
+			
+			if(year == listYear && month == listMonth) {
+				sum = sum + list.totalValue();
+			}
+		}
+		return sum;
+	}
+	
 	
 }
