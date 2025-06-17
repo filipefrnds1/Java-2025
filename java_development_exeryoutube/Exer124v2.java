@@ -47,6 +47,11 @@ public class Exer124v2 {
 		
 		System.out.println("Enter month and year to calculate income (MM/YYYY): ");
 		String income = sc.nextLine();
+		int year = Integer.parseInt(income.substring(3));
+		int month = Integer.parseInt(income.substring(0, 3));
+		System.out.println("Name: " + worker.getName());
+		System.out.println("Department: " + worker.getDepartment().getName());
+		System.out.println("Income for " + income + ": " + String.format("%.2f", worker.income(year, month)));
 		
 		sc.close();
 	}
