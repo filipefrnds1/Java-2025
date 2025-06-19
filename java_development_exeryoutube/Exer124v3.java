@@ -41,8 +41,7 @@ public class Exer124v3 {
 			double valuePerHour = sc.nextDouble();
 			System.out.print("Duration (hours): ");
 			int hours = sc.nextInt();
-			HourContract3 contract = new HourContract3(date,valuePerHour,hours);
-			worker.addContract(contract);
+			worker.addContract(new HourContract3(date,valuePerHour,hours));
 		}
 		
 		System.out.println();
